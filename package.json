@@ -1,0 +1,10 @@
+{
+  "name": "@luuguas/typescript-template-repository",
+  "version": "1.0.0",
+  "description": "TypeScriptを用いた開発のためのテンプレートリポジトリ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luuguas",
+  "license": "MIT"
+}
