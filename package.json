@@ -6,6 +6,8 @@
     "build": "tsc",
     "lint": "yarn eslint .",
     "lint-fix": "yarn eslint . --fix",
+    "format": "yarn prettier --write src",
+    "format-check": "yarn prettier --check src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "luuguas",
