@@ -4,6 +4,8 @@
   "description": "TypeScriptを用いた開発のためのテンプレートリポジトリ",
   "scripts": {
     "build": "tsc",
+    "lint": "yarn eslint .",
+    "lint-fix": "yarn eslint . --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "luuguas",
