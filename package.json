@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TypeScriptを用いた開発のためのテンプレートリポジトリ",
   "scripts": {
-    "build": "tsc",
+    "build": "yarn tsc",
     "lint": "yarn eslint .",
     "lint-fix": "yarn eslint . --fix",
     "format": "yarn prettier --write src",
