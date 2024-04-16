@@ -12,7 +12,7 @@ module.exports = {
     project: './tsconfig.eslint.json',
     tsconfigRootDir: __dirname,
   },
-  ignorePatterns: ['dist', 'node_modules'],
+  ignorePatterns: ['dist', 'node_modules', 'coverage'],
   extends: [
     'airbnb-base',
     'airbnb-typescript/base',
