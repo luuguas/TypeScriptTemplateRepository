@@ -3,5 +3,6 @@
   "version": "0.2.0",
   "description": "TypeScriptを用いた開発用のテンプレートリポジトリ",
   "author": "luuguas",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.18.1"
 }
