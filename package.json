@@ -4,5 +4,8 @@
   "description": "TypeScriptを用いた開発用のテンプレートリポジトリ",
   "author": "luuguas",
   "license": "MIT",
-  "packageManager": "yarn@4.18.1"
+  "packageManager": "yarn@4.18.1",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
