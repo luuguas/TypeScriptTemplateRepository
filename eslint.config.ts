@@ -74,7 +74,7 @@ export default defineConfig([
       // Brackets
       'curly': ['error', 'multi-line', 'consistent'],
       /* Planned to be replaced by 'list-style' in ESLint Stylistic v6 */
-      '@stylistic/array-bracket-newline': ['error', { multiline: true }],
+      '@stylistic/array-bracket-newline': ['error', 'consistent'],
       '@stylistic/function-paren-newline': ['error', 'multiline-arguments'],
       '@stylistic/object-curly-newline': ['error', { multiline: true, consistent: true }],
       '@stylistic/object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
