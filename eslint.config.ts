@@ -7,15 +7,15 @@ import stylistic from '@stylistic/eslint-plugin';
 export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs,ts,mts,cts}'],
-    ignores: ['dist/**', 'node_modules/**'],
-  },
-  {
     plugins: { js, '@stylistic': stylistic },
     extends: ['js/recommended'],
     languageOptions: {
       globals: globals.browser,
       parserOptions: { projectService: true },
     },
+  },
+  {
+    ignores: ['dist/**', 'node_modules/**'],
   },
   // Shared configs
   stylistic.configs.recommended,
