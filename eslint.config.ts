@@ -11,7 +11,9 @@ export default defineConfig([
     extends: ['js/recommended'],
     languageOptions: {
       globals: globals.browser,
-      parserOptions: { projectService: true },
+      parserOptions: {
+        project: './tsconfig.eslint.json',
+      },
     },
   },
   {
@@ -91,7 +93,7 @@ export default defineConfig([
   },
   // Overrides for config files
   {
-    files: ['*.js', '*.ts'],
+    files: ['*.ts'],
     extends: [tseslint.configs.disableTypeChecked],
     rules: { '@stylistic/indent': ['error', 2] },
   },
