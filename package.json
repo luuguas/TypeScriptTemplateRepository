@@ -3,6 +3,17 @@
   "version": "0.2.0",
   "description": "TypeScriptを用いた開発用のテンプレートリポジトリ",
   "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "yarn tsc",
     "lint": "yarn eslint",
