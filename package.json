@@ -15,7 +15,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "yarn tsc",
+    "prepack": "yarn build",
+    "build": "yarn tsdown",
     "lint": "yarn eslint",
     "lint-fix": "yarn eslint --fix",
     "test": "yarn vitest run --coverage",
