@@ -43,7 +43,6 @@ export default defineConfig([
       'prefer-template': 'error',
       '@stylistic/lines-between-class-members': 'off',
       // Naming
-      'consistent-this': ['error', 'that'],
       '@typescript-eslint/naming-convention': [
         'error',
         {
