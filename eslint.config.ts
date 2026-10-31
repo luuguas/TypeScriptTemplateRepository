@@ -68,6 +68,18 @@ export default defineConfig([
           format: ['camelCase', 'PascalCase'],
         },
         {
+          selector: ['classMethod', 'classProperty'],
+          modifiers: ['private'],
+          format: ['camelCase'],
+          leadingUnderscore: 'allow',
+        },
+        {
+          selector: ['classMethod', 'classProperty'],
+          modifiers: ['protected'],
+          format: ['camelCase'],
+          leadingUnderscore: 'allow',
+        },
+        {
           selector: ['objectLiteralProperty', 'typeProperty'],
           format: null,
         },

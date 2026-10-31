@@ -1,6 +1,6 @@
 {
   "name": "@luuguas/typescript-template-repository",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "TypeScriptを用いた開発用のテンプレートリポジトリ",
   "type": "module",
   "exports": {
